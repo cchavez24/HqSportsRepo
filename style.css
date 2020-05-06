@@ -201,6 +201,24 @@ footer {
   width: 660px;
 }
 
+.nfl-header {
+  margin-left: -50px;
+  top: 0;
+  width: 100%;
+}
+
+.nfl-nav {
+  margin-top: -50px;
+  margin-left: -100px;
+  margin-right: -100px;
+  margin-bottom: 50px;
+}
+
+.nfl-h1 {
+  padding-left: 30px;
+  margin-left: 0px;
+}
+
 /* nba */
 
 .body-nba {
