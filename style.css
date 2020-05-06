@@ -373,3 +373,77 @@ h5 {
   letter-spacing: 0.2px;
   width: 660px;
 }
+
+/* contact */
+
+.submit {
+  background-color: rgb(69, 138, 165);
+  color: white;
+  width: 80px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.contact-h2 {
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.contact-h4 {
+  color: rgb(69, 138, 165);
+  padding-top: 50px;
+}
+
+.contact-h5 {
+  color: grey;
+  font-size: 20px;
+}
+
+.contact-p {
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.input-name {
+  width: 600px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.contact-body {
+  margin-left: 100px;
+}
+
+input:hover {
+  color: rgb(56, 114, 180);
+}
+
+.input-email {
+  width: 600px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#select {
+  width: 600px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.contact-h1-a {
+  color: blue;
+  font-family: 'shadows into light', cursive;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h1 a:hover {
+  color: white;
+}
