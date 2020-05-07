@@ -52,6 +52,13 @@ body {
   margin-left: 200px;
 }
 
+.home-h1-a {
+  padding-left: 30px;
+  margin-left: -30px;
+  text-decoration: none;
+  color: blue;
+}
+
 /* Links */
 
 nav a {
@@ -214,9 +221,11 @@ footer {
   margin-bottom: 50px;
 }
 
-.nfl-h1 {
+.nfl-h1-a {
   padding-left: 30px;
-  margin-left: 0px;
+  margin-left: -80px;
+  text-decoration: none;
+  color: blue;
 }
 
 /* nba */
@@ -265,6 +274,7 @@ footer {
   line-height: 36px;
   letter-spacing: 0.2px;
   width: 660px;
+  font-weight: 400;
 }
 
 span {
@@ -339,9 +349,11 @@ h5 {
   margin-bottom: 50px;
 }
 
-.nba-h1 {
+.nba-h1-a {
   padding-left: 30px;
-  margin-left: 0px;
+  margin-left: -80px;
+  text-decoration: none;
+  color: blue;
 }
 
 /* mlb */
@@ -390,6 +402,26 @@ h5 {
   line-height: 36px;
   letter-spacing: 0.2px;
   width: 660px;
+}
+
+.mlb-header {
+  margin-left: -50px;
+  top: 0;
+  width: 100%;
+}
+
+.mlb-nav {
+  margin-top: -50px;
+  margin-left: -100px;
+  margin-right: -100px;
+  margin-bottom: 50px;
+}
+
+.mlb-h1-a {
+  padding-left: 30px;
+  margin-left: -80px;
+  text-decoration: none;
+  color: blue;
 }
 
 /* contact */
@@ -464,4 +496,67 @@ input:hover {
 
 h1 a:hover {
   color: white;
+}
+
+/* authors */
+
+.author-margins {
+  margin: 100px;
+}
+
+.author-h3 {
+  font-size: 50px;
+  margin-left: 120px;
+}
+
+.author-p {
+  color: black;
+  font-weight: 700;
+  font-size: 22px;
+  width: 69%;
+}
+
+.author-img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: absolute;
+}
+
+.author-h5 {
+  margin-left: 120px;
+}
+
+.stories-img {
+  width: 220px;
+  height: 165px;
+  margin-top: -10px;
+}
+
+.stories-margins {
+  display: inline-block;
+  position: absolute;
+  margin-top: -20px;
+  }
+
+.stories-hr {
+  width: 69%;
+  margin-left: 0px;
+}
+
+.stories-p {
+  font-size: 18px;
+  width: 52%;
+  line-height: 24px;
+  padding-top: 5px;
+  margin-left: 15px;
+}
+
+.stories-h2 {
+  padding-bottom: 0px;
+  font-size: 20px;
+}
+
+.stories-byline {
+  margin-left: 5px;
 }
