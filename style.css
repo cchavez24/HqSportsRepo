@@ -151,13 +151,24 @@ h3 a {
 /* footer */
 
 footer a {
+  list-style-type: none;
+  display: inline;
   color: rgb(69, 138, 165);
-  text-decoration: none;
+  font-family: 'shadows into light', cursive;
+  padding: 5px;
 }
 
-footer {
-  text-align: center;
-  padding: 50px;
+.footer-span {
+  color: rgb(69, 138, 165);
+  font-family: 'shadows into light', cursive;
+  margin-left: 125px;
+  display: inline;
+  position: absolute;
+  margin-top: 125px;
+}
+
+footer nav {
+  height: 150px;
 }
 
 /* nfl */
@@ -539,7 +550,7 @@ h1 a:hover {
   display: inline-block;
   position: absolute;
   margin-top: -20px;
-  }
+}
 
 .stories-hr {
   width: 69%;
@@ -572,7 +583,7 @@ h1 a:hover {
 
 .stories-mlb {
   margin-top: -5px;
-  }
+}
 
 .stories-a {
   padding: 0px;
